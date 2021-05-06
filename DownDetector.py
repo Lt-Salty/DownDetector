@@ -16,8 +16,8 @@ def send_alert():
     from smtplib import SMTP
     from email.mime.text import MIMEText
 
-    msg = MIMEText(testsite' is down')
-    msg['Subject'] = testsite' IS UNREACHABLE'
+    msg = MIMEText(WebsiteName' is down')
+    msg['Subject'] = WebsiteName' IS UNREACHABLE'
     msg['From'] = FromEmail
     msg['To'] = ToEmail
 
