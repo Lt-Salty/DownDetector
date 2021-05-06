@@ -43,5 +43,5 @@ while True:
         fails = fails+1
         print ("FAILURE",fails)
         time.sleep(270)
-    #The number of seconds the loop will pause for before checking again.  I set it to 60. 
+    #The number of seconds the loop will pause for before checking again.  I set it to 30. 
     time.sleep(30)
